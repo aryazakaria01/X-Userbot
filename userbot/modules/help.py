@@ -26,7 +26,7 @@ async def help(event):
             await event.delete()
     else:
         await event.edit(f"**╭━━━━━━━━━━━━━━━━━━━╮**\
-            \n│   Help for ☠️ XUSERBOT ☠️\
+            \n│   Help for ☠️ X-USERBOT ☠️\
             \n╰━━━━━━━━━━━━━━━━━━━╯ \
             \n╭━━━━━━━━━━━━━━━━━━━╮\
             \n│  Untuk melihat lengkap CMD\

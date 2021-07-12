@@ -95,7 +95,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN") or None
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = (os.environ.get("UPSTREAM_REPO_URL")
-                     or "https://github.com/ximfine/XUserbot")
+                     or "https://github.com/aryazakaria01/X-Userbot")
 
 # UPSTREAM_REPO_URL branch, the default is master
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH") or "sql-extended"
@@ -168,7 +168,7 @@ TEMP_DOWNLOAD_DIRECTORY = os.environ.get(
     "TMP_DOWNLOAD_DIRECTORY") or "./downloads"
 
 # Terminal Alias
-TERM_ALIAS = os.environ.get("TERM_ALIAS") or "XUSERBOT"
+TERM_ALIAS = os.environ.get("TERM_ALIAS") or "X-USERBOT"
 
 # Genius Lyrics API
 GENIUS = os.environ.get("GENIUS_ACCESS_TOKEN") or None
@@ -177,7 +177,7 @@ GENIUS = os.environ.get("GENIUS_ACCESS_TOKEN") or None
 CUSTOM_CMD = os.environ.get("CUSTOM_CMD") or "."
 
 # Sticker Custom Pack Name
-S_PACK_NAME = os.environ.get("S_PACK_NAME") or "🔥 XUSERBOT ~"
+S_PACK_NAME = os.environ.get("S_PACK_NAME") or "🔥 X-USERBOT ~"
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "X01")
@@ -258,7 +258,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**☠️ XUSERBOT ☠️\nBERHASIL DIAKTIFKAN 🔥**")
+    await bot.send_message(BOTLOG_CHATID, "**☠️ X-USERBOT ☠️\nBERHASIL DIAKTIFKAN 🔥**")
     return
 
 with bot:
@@ -317,7 +317,7 @@ with bot:
         async def handler(event):
             if event.message.from_id != uid:
                 await event.reply(
-                    f"Hai Saya adalah bot asissten {ALIVE_NAME}\n [🔥 XUSERBOT 🔥](https://github.com/ximfine/XUserbot)\n please make your own bot, don't use mine"
+                    f"Hai Saya adalah bot asissten {ALIVE_NAME}\n [🔥 X-USERBOT 🔥](https://github.com/aryazakaria01/X-Userbot)\n please make your own bot, don't use mine"
                 )
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nSaya siap membantu mu`")
@@ -340,7 +340,7 @@ with bot:
                 result = builder.article(
                     "Please Use Only With .help Command",
                     text="{}\nTotal loaded modules: {}".format(
-                        "[XUSERBOT](https://github.com/ximfine/XUserbot) modules helper.\n",
+                        "[XUSERBOT](https://github.com/aryazakaria01/X-Userbot) modules helper.\n",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -348,20 +348,20 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "🔥 XUSERBOT 🔥 modules helper",
+                    "🔥 X-USERBOT 🔥 modules helper",
                     text="List of Modules",
                     buttons=[],
                     link_preview=True,
                 )
             else:
                 result = builder.article(
-                    "XUSERBOT",
+                    "X-USERBOT",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/ximfine/XUserbot",
+                                "https://github.com/aryazakaria01/X-Userbot",
                             ),
                             custom.Button.url(
                                 "Support",

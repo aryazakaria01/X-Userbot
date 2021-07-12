@@ -1,5 +1,5 @@
 # Thank you to @Badboyanim for this awesome module
-# 
+#
 
 import requests
 import re

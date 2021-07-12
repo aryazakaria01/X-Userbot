@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./userbot/resources/Music.gif" width="30px"> XUSERBOT PROJECTS <img src="./userbot/resources/Music.gif" width="30px"></h1>
+<h1 align="center"><img src="./userbot/resources/Music.gif" width="30px"> X-USERBOT PROJECTS <img src="./userbot/resources/Music.gif" width="30px"></h1>
 
 <h2 align="center">▭▭▰▰▭▭▰▰▭▭▰▰▭▭▰▰▭▭▰▰</h2>
 

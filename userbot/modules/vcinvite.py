@@ -1,3 +1,5 @@
+# Thank you to @Badboyanim fir this awesome module
+
 from telethon.tl.functions.phone import GetGroupCallRequest as getvc
 from telethon.tl.functions.channels import GetFullChannelRequest as getchat
 from telethon.tl.functions.phone import InviteToGroupCallRequest as invitetovc

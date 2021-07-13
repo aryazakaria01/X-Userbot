@@ -1,3 +1,4 @@
+# Thank you to @Badboyanim for this awesome module
 from telethon.tl import functions
 from telethon.tl.functions.messages import GetFullChatRequest
 from telethon.errors import (

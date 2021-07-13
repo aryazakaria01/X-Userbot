@@ -1,3 +1,5 @@
+# Thank you to @Badboyanim for this awesome module
+
 """ Userbot module for other small commands. """
 
 from userbot import CMD_HELP
